@@ -10,8 +10,6 @@ project(roscore_communication)
 find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
-  std_msgs
-  geometry_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -198,6 +196,3 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
-
-#add_executable(get_other_pose src/get_other_pose.cpp)
-#target_link_libraries(get_other_pose ${catkin_LIBRARIES})
