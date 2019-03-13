@@ -1,5 +1,7 @@
 # roscore_communication
 
+# For labolatory members
+
 ## This package is used to share independent rosmasters topics
 
 
